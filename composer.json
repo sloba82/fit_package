@@ -1,0 +1,23 @@
+{
+    "name": "fit/password",
+    "description": "fit password.",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Slobodan juhas",
+            "email": "dizajistampa@gmail.com"
+        }
+    ],
+    "type": "project",
+    "require": {
+		"php": ">=7.1"
+    },
+    "require-dev": {
+		"phpunit/phpunit": "6.*"
+    },
+    "autoload": {
+        "psr-4": {
+            "Fit\\": "src/"
+        }
+    }
+}
